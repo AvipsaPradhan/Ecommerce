@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
     password: String,
     profilePic: String,
     role: String,
-    searchQuery: [String], // Change the type to an array of strings
+    
 }, {
     timestamps: true
 });
